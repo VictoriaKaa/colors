@@ -1,0 +1,66 @@
+body{
+  background-color: #252850;
+}
+.app {
+  width: 70%;
+  min-height: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid black;
+  background-color: #F5F5F5;
+  font-family: 'Jost', sans-serif;
+}
+.title{
+  text-align: center;
+  font-size: 44px;
+  font-weight: bold;
+  color: #191970;
+}
+
+.color-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px;
+}
+.menu{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.menu a {
+  padding: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #4285B4;
+  color: #1D334A;
+  cursor: pointer;
+}
+.menu a.selected {
+  color: #5E2129;
+  background-color: #7DF9FF;
+}
+.add-color{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  button {
+    margin-left: 10px;
+    padding: 5px;
+    border: 1px solid #20155E;
+    border-radius: 3px;
+    background-color: #EEE6A3;
+    font-family: 'Jost', sans-serif;
+    cursor: pointer;
+  }
+}
+.color-input{
+  width: 40px;
+  height: 27px;
+  margin-left: 10px;
+}
+.text-input{
+  padding: 5px;
+}
